@@ -1,0 +1,49 @@
+# Week 7: SQL Joins Assignment
+
+This repository contains the MS Access SQL queries written for the Week 7 Database Concepts assignment.
+
+## Query Outputs
+
+### Query 1: All Joined Data
+| name | description | amount |
+| :--- | :--- | :--- |
+| Alice Smith | Coffee | \$150.30 |
+| Alice Smith | Amazon transaction | \$20.40 |
+| Charles Davis | Restaurant | \$50.30 |
+| Bob Johnson | Laptop | \$70.30 |
+
+### Query 2: Transactions for 'Alice Smith'
+| description | amount |
+| :--- | :--- |
+| Coffee | \$150.30 |
+| Amazon transaction | \$20.40 |
+
+### Query 3: Residents of 'Maryland'
+| name | city | amount |
+| :--- | :--- | :--- |
+| Charles Davis | Maryland | \$50.30 |
+
+### Query 4: Transactions Greater Than \$60
+| name | description |
+| :--- | :--- |
+| Alice Smith | Coffee |
+| Bob Johnson | Laptop |
+
+### Query 5: Customers Older than 30 and Amount Less than \$100
+| name | age | description |
+| :--- | :--- | :--- |
+| Bob Johnson | 33 | Laptop |
+
+### Query 6: Sorted by Highest Amount First
+| name | description | amount |
+| :--- | :--- | :--- |
+| Alice Smith | Coffee | \$150.30 |
+| Bob Johnson | Laptop | \$70.30 |
+| Charles Davis | Restaurant | \$50.30 |
+| Alice Smith | Amazon transaction | \$20.40 |
+
+### Query 7: Transactions After January 1, 2024
+| name | description | transaction_date |
+| :--- | :--- | :--- |
+| Alice Smith | Coffee | 5/16/2026 |
+| Alice Smith | Amazon transaction | 5/16/2025 |
